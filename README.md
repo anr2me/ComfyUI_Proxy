@@ -1,6 +1,6 @@
-# ComfyUI Cloud Redirect
+# ComfyUI Proxy
 
-Redirects the `/prompt` and `/queue` API calls of a local ComfyUI instance
+Redirects some ComfyUI's API calls of a local ComfyUI instance
 to a remote "cloud GPU" ComfyUI instance. The remote URL is stored server-side,
 editable live from ComfyUI's **Settings** panel (gear icon → "Cloud GPU URL"),
 and persisted to `cloud_config.json` so it survives restarts.
@@ -9,7 +9,7 @@ and persisted to `cloud_config.json` so it survives restarts.
 
 1. Copy this whole folder into `ComfyUI/custom_nodes/`, e.g.:
    ```
-   ComfyUI/custom_nodes/comfyui_cloud_redirect/
+   ComfyUI/custom_nodes/ComfyUI_Proxy/
    ```
 2. Restart ComfyUI.
 3. Open Settings → "Cloud GPU URL" → enter something like
