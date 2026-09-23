@@ -7,7 +7,7 @@ and persisted to `cloud_config.json` so it survives restarts.
 
 ## Install
 
-1. Copy this whole folder into `ComfyUI/custom_nodes/`, e.g.:
+1. Clone/copy this repository into `ComfyUI/custom_nodes/`, e.g.:
    ```
    ComfyUI/custom_nodes/ComfyUI_Proxy/
    ```
